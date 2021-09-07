@@ -53,6 +53,7 @@ public class Prob5 {
 			
 			
 		}
+		sc.close();
 
 	}
 

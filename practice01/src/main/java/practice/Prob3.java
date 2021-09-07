@@ -22,6 +22,7 @@ public class Prob3 {
 		}
 		
 		System.out.println(sum);
+		sc.close();
 
 	}
 
