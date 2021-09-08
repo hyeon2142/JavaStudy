@@ -9,8 +9,14 @@ public class GoodsApp {
 		goods.setPrice(4000);
 		goods.setCountStock(10);
 		goods.setCountSold(20);
+		goods.showInfo();
+		int discountPrice = goods.calcDiscountPrice(50);
+		System.out.println(discountPrice);
+
+		System.out.println(Goods.countOfGoods);
 		
-		System.out.println(goods.toString());
+		Goods goods2 = new Goods();
+		Goods goods3 = new Goods();
 	}
 
 }
