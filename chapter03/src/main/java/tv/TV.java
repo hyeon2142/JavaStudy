@@ -26,9 +26,9 @@ public class TV {
 	
 	public void power(boolean on) {
 		if(on) {
-			this.power = true;
+			this.power = on;
 		}else {
-			this.power = false;
+			this.power = on;
 		}
 	}
 	
