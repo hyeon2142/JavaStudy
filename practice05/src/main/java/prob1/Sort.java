@@ -20,9 +20,9 @@ public class Sort {
 		
 		while (true) {
 
-			for (int i = 0; i < count; i++) {
+			for (int i = 0; i < count; i++) { // 0~6 인덱스
 
-				if (i != count - 1) {
+				if (i != count - 1) {         // i가 6이되면 마지막 인덱스이니까 제외 
 
 					if (array[i] > array[i + 1]) {
 

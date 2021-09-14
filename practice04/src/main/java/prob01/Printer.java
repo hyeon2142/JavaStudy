@@ -17,5 +17,20 @@ public class Printer {
 	public void println(String d) {
 		System.out.println(d);
 	}
+	
+	public <T> void println(T... args) {
+		for(T t : args) {
+			System.out.println(t);
+		}
+	}
+	
+	public int sum(Integer... args) {
+		int sum = 0;
+		for(Integer i : args) {
+			sum += i;
+		}
+		
+		return sum;
+	}
 
 }
