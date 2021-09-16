@@ -59,7 +59,9 @@ public class Gugudan {
 		while(s.size() < 9) {
 			int random = ((int)(Math.random()*9+1)) * ((int)(Math.random()*9+1));
 			
+			if(resultNumber != random) {
 			s.add(random);
+			}
 
 		}
 		
