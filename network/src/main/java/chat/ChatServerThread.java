@@ -64,9 +64,10 @@ public class ChatServerThread extends Thread {
 	}
 
 	private void doMessage(String string) {
-		printWriter.println(this.nickname + ":" + string);
+		//printWriter.println(this.nickname + ":" + string);
 		broadcast(this.nickname + ":" + string);
 		System.out.println(this.nickname + ":" + string);
+
 	}
 
 	private void doQuit(Writer writer) {
